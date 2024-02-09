@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+        <title>survey-form</title>
+    </head>
+    <body>
+        <h1 id="title">
+            Register here
+        </h1>
+        <p id="description">
+            You can register your account here.
+        </p>
+        <form id="survey-form" method>
+            <div>
+                <p> Enter Your Name:</p>
+                <label id="name-label">
+                    <input type="text" id="name" name="name" required
+                        placeholder="Enter your name">
+                </label>
+            </div>
+            <div>
+                <label id="email-label">
+                    <p>Email:</p>
+                    <input type="email" id="email" name="email" required
+                        placeholder="Enter your email">
+                </label>
+            </div>
+            <div>
+                <label id="user-label">
+                    <p>Username:</p>
+                    <input type="text" id="username" name="username" required
+                        placeholder="Enter a Username">
+                </label>
+            </div>
+            <div>
+                <label id="number-label">
+                    <p>Age:</p>
+                    <input type="number" id="number" name="number" required
+                        min="18" max="60" placeholder="Age">
+                </label>
+            </div>
+            <div>
+                <label id="password-label">
+                    <p>Enter Your Password:</p>
+                    <input type="password" id="username" name="username" required
+                        placeholder="Enter a Password">
+                </label>
+            </div>
+            <div>
+                <label id="password-label">
+                    <p>Reenter Your Password:</p>
+                    <input type="password" id="username" name="username" required
+                        placeholder="Reenter a Password">
+                </label>
+            </div>
+            <div>
+                <p>Which option best describes your current role?</p>
+                <label>
+                    <select id="dropdown">
+                        <option value>
+                            Select Your Current Role (Visitor or ID)
+                        </option>
+                        <option value="student">
+                            Visitor
+                        </option>
+                        <option value="profesional">
+                            Employee
+                        </option>
+                    </select>
+                </label>
+            </div>
+
+            <!--div>
+                <p>Add More courses to your list:</p>
+                <label>
+                    <p><input type="checkbox" value="front-end">
+                        Front-End-Development</p>
+                    <p><input type="checkbox" value="back-end">
+                        Back-End-Development</p>
+                    <p><input type="checkbox" value="api"> API </p>
+                </label>
+            </!--div-->
+            <!---div>
+                <p>Tell us more about your experience.</p>
+                <label>
+                    <textarea placeholder="Your response goes here"></textarea>
+                </label>
+            </-div--->
+            <div>
+            <label>
+                <input type="submit" id="submit">
+            </label>
+            </div>
+        </form>
+    </body>
+</html>
