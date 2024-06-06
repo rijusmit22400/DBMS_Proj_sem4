@@ -1,0 +1,19 @@
+.container{
+    background-color: #fff;
+    width: 60%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 8vw auto;
+    text-align: center;
+    height: 50vh;
+}
+
+#to-root{
+    padding-top: 3vw;
+}
+
+span{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f00;
+}
+

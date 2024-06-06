@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #dbdbdb;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #e0e9ff;
+    color: #000;
+}
+
+button:active{
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+}
+
+img{
+    object-fit: cover;
+}
+
+input{
+    height: max(4vh,2.5vw);
+}

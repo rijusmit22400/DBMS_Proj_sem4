@@ -1,0 +1,149 @@
+.box-in-cart-page {
+    background-color: #fff;
+    box-shadow: rgb(0, 0, 0, 60%) 0px 0px 10px;
+    border-radius: 10px;
+    height: min(max-content, 80vh);
+}
+
+#cart-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 2vw 8vw;
+    margin-bottom: 5vw;
+}
+
+#items {
+    width: 60%;
+    height: 80vh;
+    padding: 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+span {
+    width: 20%;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #0b1a24;
+    color: #fff;
+    height: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select option {
+    background-color: #0b1a24;
+    color: #fff;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 10px;
+    height: max-content;
+}
+
+select:hover {
+    cursor: pointer;
+}
+
+select:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #0b1a24;
+}
+
+select option:hover {
+    background-color: #fff;
+    color: #0b1a24;
+}
+
+#summary {
+    width: 30%;
+    height: max-content;
+    padding: 2vw;
+}
+
+#summary #total {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.item {
+    margin-top: 20px;
+    border-bottom: 1px solid #5757577e;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+.item .item-details {
+    padding-left: 4vw;
+    padding-top: 2vw;
+    font-size: max(15px, 0.8dvw);
+}
+
+.item-details > #product-name {
+    font-size: 1.2dvw;
+    font-weight: 500;
+}
+
+.item-image > img {
+    margin-left: 4vw;
+    width: 300px;
+    object-fit: cover;
+    height: 300px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 500;
+
+}
+
+/* Styles for the "Checkout" button */
+#checkout {
+    width: 100%;
+    background-color: #0b1a24;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#checkout:hover {
+    cursor: pointer;
+    background-color: #e0e9ff;
+    color: #000;
+}
+
+#checkout:active {
+    background-color: #ffffff;
+    color: #000;
+    border: none;
+}
+
+#empty-cart{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10vh;
+    padding: 0 auto;
+}
+
+#detail{
+    color: #0b1a24;
+    font-size: 1.2rem;
+}

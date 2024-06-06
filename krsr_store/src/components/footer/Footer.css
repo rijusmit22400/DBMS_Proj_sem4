@@ -1,0 +1,47 @@
+footer{
+    padding: 1rem 2rem;
+    background-color: #0b1a24;
+    box-shadow: 0 0 10px 5px rgba(11, 11, 11, 0.8);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.footer-content{
+    color: #fff;
+    padding: 0 2vw 0 2vw;
+}
+
+.footer-bottom{
+    color: #ffffff50;
+    text-align: center;
+    align-items: center;
+    bottom: 0;
+}
+
+#footer-description{
+    color: #ffffff50;
+    font-size: 0.95rem;
+    font-weight: 300;
+    font-style: normal;
+    padding: 1rem 0;
+    letter-spacing: 0.1rem;
+}
+.gap-between-content-and-bottom{
+    padding: 2rem;
+}
+
+#footer-heading{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.footer{
+    position: relative;
+    bottom: 0px;
+}

@@ -1,0 +1,32 @@
+.category{
+    width: max(35vw, 150px);
+    height: max(20vw, 100px);
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    margin: 1vw;
+}
+
+#title, a{
+    text-decoration: none;
+    color: black;
+    text-decoration-line: none;
+}
+
+#title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    margin: 0;
+}
+.category{
+    text-align: center;
+    align-content: center;
+}
+
+.label{
+    width: 100%;
+    height: 100%;
+    background-color: #1f2d5173;
+    padding-top: 25%;
+}

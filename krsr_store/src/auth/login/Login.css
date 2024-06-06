@@ -1,0 +1,86 @@
+#auth{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(11, 11, 11, 0.8);
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#auth #login{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+fieldset{
+    border: none;
+    width: 100%;
+}
+
+button[type="submit"],button[type="button"]{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #0b1a24;
+    color: #fff;
+    height: 50px;
+    font-size: 0.9rem;
+}
+
+#auth > Link{
+    font-size: 0.9rem;
+    color: #0b1a24;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.material-symbols-outlined {
+    color: #0b1a24;
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+#skip-container {
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
+    display: flex;
+    align-items: center;
+}
+
+#skip-container .material-symbols-outlined {
+    margin-left: 5px;
+}
+
+#skip-container > a {
+    font-size: 0.9rem;
+    color: #0b1a24;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}

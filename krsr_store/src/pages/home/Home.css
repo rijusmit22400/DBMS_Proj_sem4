@@ -1,0 +1,18 @@
+.categories-heading{
+    font-size: 2rem;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 2rem 5vw;
+    padding: 1.5rem 5vw 0 5vw;
+}   
+
+#categories-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2rem 2.5vw;
+    padding: 2rem 2.5vw;
+}
+

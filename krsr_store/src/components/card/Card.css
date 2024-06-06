@@ -1,0 +1,79 @@
+.container-products{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 3vw 2.5vw;
+    margin: 3vw 5vw;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+#price{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+}
+
+.im_card{
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+#add-to-cart{
+    margin-top: 2vh;
+    padding: 0.7vw 1.5vw;
+    background-color: #1f2d51;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    width: 8dvw;
+}
+
+input[type=number]{
+    width: 4dvw;
+    text-align: center;
+    color: #1f2d51;
+    font-weight: 300;
+    font-size: 1rem;
+    -webkit-appearance: textfield;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    text-align: center;
+    border-radius: 0px;
+    border: 1px solid #1f2d51;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+}
+
+.items-counter{
+    width: 2vw;
+    background-color: #1f2d51;
+    color: #fff;
+    border: none;
+    height: 2.5vw;
+    border-radius: 2.5px;
+}
+
+#data-field{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#data-field-quantity{
+    padding: 0 1vw;
+    padding-top: 1vw;
+}
