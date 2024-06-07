@@ -77,3 +77,12 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 0 1vw;
     padding-top: 1vw;
 }
+
+#items-counter{
+    width: 2vw;
+    background-color: #1f2d51;
+    color: #fff;
+    border: none;
+    height: 2.5vw;
+    border-radius: 2.5px;
+}

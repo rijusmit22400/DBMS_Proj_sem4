@@ -60,15 +60,11 @@
 .save-button {
     background-color: #0b1a24;
     color: #fff;
-    width: 100px;
+    width: 25%;
 }
 
 .discard-button {
     background-color: #0b1a24;
     color: #fff;
-    width: 100px;
-}
-
-body > button[type="button"]{
-    width: 30px;
+    width: 25%;
 }

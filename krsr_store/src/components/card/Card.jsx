@@ -40,9 +40,9 @@ function Card({id, name, description, price, stock}) {
             <p id="price">&#8377; {price}</p>
             <div id="data-field"><button id="add-to-cart" onClick={add_to_cart}>Add to Cart</button>
             <div id="data-field-quantity">
-            <button className="items-counter" type="button">+</button>
-            <input value={quantity} onChange={(e)=>{setQuantity(e.target.value)}} name="quantity" id="quantity" max={stock} min="1" type="number"/>
-            <button className="items-counter" type="button">-</button>
+            <button id ="counter" className="items-counter" type="button" onClick={() => setQuantity(quantity + 1)}>+</button>
+            <input value={quantity} onChange={(e) => setQuantity(e.target.value)} name="quantity" id="quantity" max={stock} min="1" type="number"/>
+            <button id="counter" className="items-counter" type="button" onClick={() => setQuantity(quantity - 1)}>-</button>
             </div>
             </div>
             </div>

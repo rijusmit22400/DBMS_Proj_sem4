@@ -158,8 +158,8 @@ function Profile() {
                                 />
                             </div>
                             <div className="button-group">
-                                <button type="button" className="btn save-button" onClick={send_details}>Save Changes</button>
-                                <button type="button" className="btn discard-button" onClick={clean_object}>Discard Changes</button>
+                                <button type="button" className="btn discard-button" onClick={clean_object}>Discard Changes <i className="bi bi-x"></i></button>
+                                <button type="button" className="btn save-button" onClick={send_details}>Save Changes <i className="bi bi-check2-all"></i></button>
                             </div>
                         </form>
                     </div>

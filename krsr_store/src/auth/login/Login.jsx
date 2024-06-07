@@ -83,12 +83,12 @@ function Login() {
               />
             </label>
           </fieldset>
-          <button type="button" name="login" onClick={handle_login}>
+          <button type="button" id="handle_login" onClick={handle_login}>
             Log in
           </button>
         </form>
         <p>Not Registered?</p>
-        <button type="button" onClick={handle_register}>
+        <button type="button" id="handle_register" onClick={handle_register}>
           Register Now
         </button>
       </div>

@@ -39,6 +39,17 @@ button[type="submit"]{
     font-size: 0.9rem;
 }
 
+#handle-login{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    background-color: #0b1a24;
+    color: #fff;
+    height: 50px;
+    font-size: 0.9rem;
+}
+
 #store-name{
     font-size: 2rem;
     font-weight: 500;

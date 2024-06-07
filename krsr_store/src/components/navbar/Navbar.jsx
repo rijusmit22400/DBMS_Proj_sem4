@@ -46,7 +46,7 @@ function Navbar() {
                 <ul>
                     <li><Link to={`/home?username=${username}&key=${key}`}>Home</Link></li>
                     <li><Link to={`/about?username=${username}&key=${key}`}>About</Link></li>
-                    <li onClick={logout}><i className="bi bi-door-closed"></i></li>
+                    <li onClick={logout}><i className={username === "guest" && key === "no-key" ? "bi bi-door-open" : "bi bi-door-closed"}></i></li>
                     <li><Link to={`/profile?username=${username}&key=${key}`}><i className="bi bi-person-circle"></i></Link></li>
                     <li><Link to={`/cart?username=${username}&key=${key}`}><i className="bi bi-cart"></i></Link></li>
                 </ul>

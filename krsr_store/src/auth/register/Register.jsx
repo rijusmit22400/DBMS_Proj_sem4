@@ -70,7 +70,7 @@ function Register() {
           <button type="submit">Register</button>
         </form>
         <p>Already Registered?</p>
-        <button type="button" onClick={handleLoginClick}>Login</button>
+        <button type="button" id="handle-login" onClick={handleLoginClick}>Login</button>
       </div>
     </div>
   );

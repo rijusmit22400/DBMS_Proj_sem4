@@ -167,7 +167,7 @@ function Cart() {
                         </select>
                     </div>
                     <div>
-                        <button type="button" onClick={handle_checkout} id="checkout">Checkout</button>
+                        <button type="button" onClick={handle_checkout} id="checkout">Checkout <i className="bi bi-cart-check"></i></button>
                     </div>
                 </div>
             </div>

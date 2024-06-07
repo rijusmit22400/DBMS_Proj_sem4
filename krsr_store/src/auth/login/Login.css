@@ -39,7 +39,7 @@ fieldset{
     width: 100%;
 }
 
-button[type="submit"],button[type="button"]{
+#handle_login, #handle_register{
     width: 100%;
     padding: 10px;
     margin: 10px 0;
