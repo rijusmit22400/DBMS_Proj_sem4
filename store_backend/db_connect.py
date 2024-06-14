@@ -1,8 +1,6 @@
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-engine = create_engine(f'mysql://riju:$whiteknight28@localhost/krsr_store', echo = True)
-
-import mysql
+engine = create_engine(f'mysql://rijusmit:Mummy&papa2024@rijusmit.com:3306/riju_ecom', echo = True)
 conn = engine.connect()
 session = sessionmaker(bind = conn)
 
